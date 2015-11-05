@@ -1,6 +1,6 @@
 == README
 
-### ENV_VERSION
+ENV_VERSION
 * ruby 2.2.3
 * rails 4.2.3
 
