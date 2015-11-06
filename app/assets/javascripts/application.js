@@ -14,3 +14,27 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){	
+	$('#sendCode').bind('click',function(){
+		$.ajax({
+			type :'POST',
+			url  :'',
+			date :{
+				userName:$('#user_UserName').attr('value');
+				telphoneNo: $('#user_TelPhoneNo').attr('value');
+			}
+		    success: success ,
+
+
+
+		})
+		alert(telphoneNo);
+	})
+
+})
+
+function success (){
+	alert('success');
+
+}
