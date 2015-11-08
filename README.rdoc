@@ -1,8 +1,16 @@
 == README
 
-ENV_VERSION
-* ruby 2.2.3
-* rails 4.2.3
+<<<<<<< HEAD
+=== ENV_VERSION
+
+> ruby 2.2.3
+
+> rails 4.2.4
+=======
+==== ENV_VERSION
+* ruby  2.2.3 
+* rails 4.2.4
+>>>>>>> 2e6a840d6415f29f68e34ee7664dded93707276f
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
