@@ -19,17 +19,18 @@ $(document).ready(function(){
 	$('#sendCode').bind('click',function(){
 		$.ajax({
 			type :'POST',
-			url  :'',
+			url  :'http://localhost:3000/users/1／sendCode',
 			date :{
-				userName:$('#user_UserName').attr('value');
-				telphoneNo: $('#user_TelPhoneNo').attr('value');
-			}
-		    success: success ,
-
+				userName  : $('#user_UserName').attr('value'),
+				telphoneNo: $('#user_TelPhoneNo').attr('value'),
+			},
+		    success: function (){ alert("asdfasdf");} ,
+		    error  : function (){ alert("error");}
 
 
 		})
-		alert(telphoneNo);
+		return false;
+		// alert(telphoneNo);
 	})
 
 })
